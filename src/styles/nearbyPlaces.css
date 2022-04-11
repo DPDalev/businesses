@@ -1,0 +1,44 @@
+h1 {
+        position: relative;
+        left: 5%;
+}
+
+.nearbyRow {
+        position: relative;
+        left: 5%;
+        height: 50px;
+        width: 90%;
+        margin-bottom: 5px;
+        background-color: #F1F1F1;
+        /* border: solid 1px; */
+}
+
+#nearbyName,
+#nearbyAddress {
+        position: absolute;
+        top: 6%;
+        height: 40%;
+        vertical-align: middle;
+        /* border: solid 1px; */
+}
+
+#nearbyName {
+        left: 5%;
+}
+
+#nearbyAddress {
+        width: auto;
+        left: 28%;
+}
+
+#address {
+        display: inline;
+        left: 9%;
+}
+
+#addMArgin {
+        display: inline-block;
+        height: 0px;
+        margin-bottom: 5%;
+        /* border: solid 1px; */
+}

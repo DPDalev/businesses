@@ -1,0 +1,62 @@
+button {
+        border: none;
+        cursor: pointer;
+}
+
+.businessRow,
+#firstTitle {
+        position: center;
+        width: 80%;
+        height: 56px;
+        margin-inline: 10%;
+        margin-bottom: 7px;
+        background-color: white;
+        border-radius: 5px;
+        vertical-align: middle;
+}
+
+.businessRow:hover {
+        background-color: #F1F1F1;
+}
+
+#firstTitle {
+        display: block;
+        margin-top: 3%;
+        color: #B41D76;
+        font-size: 16px;
+        font-weight: bold;
+}
+
+#businessName,
+#businessDescription,
+#titleName,
+#titleDescription {
+        display: inline-block;
+        position: relative;
+        top: 6%;
+        height: 34%;
+        text-align: left;
+        /* border: solid 1px; */
+}
+
+#businessName,
+#titleName {
+        left: -17%;
+        width: 10%;
+}
+
+#businessDescription,
+#titleDescription {
+        left: 5%;
+        width: 50%;
+}
+
+#titleName,
+#titleDescription {
+        top: 34%;
+}
+
+#noBusinesses {
+    margin-top: 8%;
+    left: 0;
+}

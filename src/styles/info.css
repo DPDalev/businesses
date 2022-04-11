@@ -1,0 +1,33 @@
+.info {
+        position: absolute;
+        top: 500px;
+        width: 15%;
+        height: auto;
+        font-size: 13px;
+        text-align: left;
+}
+
+#address {
+        left: 11%;
+}
+
+#contact {
+        left: 27%;
+        width: 23%;
+}
+
+#nearbyPlaces {
+        width: 34%;
+        left: 55%;
+        background-color: white;
+}
+
+h1 {
+        margin-bottom: 30px;
+        font-size: 24px;
+}
+
+p {
+        position: relative;
+        left: 5%;
+}
